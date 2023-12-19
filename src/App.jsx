@@ -22,7 +22,7 @@ function App() {
   }
 
   const checkForThala = (text) => {
-    return text.toLowerCase().includes('dhoni') || text.toLowerCase().includes('adeesh') ||text.length === 7 || (text.match(/^[0-9]+$/) && addTillOne(text) === 7);
+    return text.toLowerCase().includes('dhoni') || text.toLowerCase().includes('adeesh') || text.toLowerCase().includes('thala')  ||text.length === 7 || (text.match(/^[0-9]+$/) && addTillOne(text) === 7);
   }
 
   const addTillOne = (text) => {
